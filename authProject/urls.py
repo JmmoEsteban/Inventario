@@ -20,6 +20,6 @@ from authApp.views.users.create import create_user
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("/", login),
+    path("login/", login),
     path("users/create", create_user),
 ]
